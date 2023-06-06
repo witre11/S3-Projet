@@ -1,0 +1,35 @@
+{
+  "realm": "usager",
+  "users": [
+    {
+      "username": "joueur",
+      "enabled": true,
+      "realmRoles": [
+        "joueur",
+        "default-roles-master"
+      ],
+      "credentials": [
+        {
+          "temporary": true,
+          "type": "password",
+          "value": "joueur"
+        }
+      ]
+    },
+    {
+      "username": "capitaine",
+      "enabled": true,
+      "realmRoles": [
+        "capitaine",
+        "default-roles-master"
+      ],
+      "credentials": [
+        {
+          "temporary": true,
+          "type": "password",
+          "value": "capitaine"
+        }
+      ]
+    }
+  ]
+}
